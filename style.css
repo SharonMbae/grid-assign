@@ -1,0 +1,142 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the container horizontally */
+    justify-content: center; /* Center the container vertically */
+    height: 100vh; /* Make the body take up the full viewport height */
+    margin: 0; /* Remove default margin to ensure full body coverage */
+}
+
+main{
+    background-color: grey;
+    width: 80%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-area: 'leftc secondc thirdc fourthc' 'fifthc sixthc sevenc';
+    gap: 15px;
+    width: 80%;
+    height: 80%;
+}
+.card1{
+    background-color: rgb(4, 4, 80);
+    height: 360px;
+    border-radius: 10px;
+    width: 200px;
+}
+.bluecard{
+    background-color: blue;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.bluecard h1{
+    color: white;
+    font-size:20px ;
+}
+.bluecard p{
+    color: antiquewhite;
+}
+.bluecard img{
+    width: 50%;
+}
+.basic{
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.basic h1{
+    color: grey;
+    font-size: 16px;
+}
+.basic h2{
+    color: white;
+    font-size: 16px;
+}
+.card2{
+    background-color: burlywood;
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+.cardtop{
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    
+}
+.cardtop img{
+    width: 40px;
+}
+.sbottom{
+    padding-left: 20px;
+    /* width: 200px; */
+    background-color: rgb(4, 4, 71);
+    border-radius: 10px;
+    padding-top: 20px;
+
+}
+.acti{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+p{
+    color: white;
+}
+.oth{
+    padding-top: 0px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.card3{
+    background-color: rgb(66, 215, 226);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+
+.card4{
+    background-color: rgb(226, 66, 133);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+
+.card5{
+    background-color: rgb(66, 226, 165);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+
+.card6{
+    background-color: rgb(135, 66, 226);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
+
+.card7{
+    background-color: rgb(226, 197, 66);
+    width: 200px;
+    height: 100px;
+    border-radius: 10px;
+    /* padding-left: 20px; */
+}
